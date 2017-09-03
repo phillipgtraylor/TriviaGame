@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TriviaGame</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+	<div class="wrap">
+	<div id="header"><h1>Trivia</h1></div>
+	<div id="quizTimer"></div>
+		<div id="quizTimer"></div>
+
+		<!-- quiz form here. Radio buttons,. assign values equal to html text -->
+		<form id="trivia" name="quiz">
+
+			
+			<p class="questions">What does a belonophobic fear?</p>
+			<input type="radio" id = "mc" name="question1" value="News"> News<br>
+			<input type="radio" id = "mc" name="question1" value="Beer"> Beer<br>
+			<input type="radio" id = "mc" name="question1" value="Needles"> Needles<br>
+
+			
+
+			<p class="questions">Which famous artist and inventor died at Amboise Castle in France, 1519?</p>
+			<input type="radio" id = "mc" name="question2" value="Leonardo da Vinci"> Leonardo da Vinci<br>
+			<input type="radio" id = "mc" name="question2" value="Michelangelo"> Michelangelo<br>
+			<input type="radio" id = "mc" name="question2" value="Raphael"> Raphael<br>
+
+			
+
+			<p class="questions">What type of food is Quark?</p>
+			<input type="radio" id = "mc" name="question3" value="Duck Roast"> Duck Roast<br>
+			<input type="radio" id = "mc" name="question3" value="Cheese"> Cheese<br>
+			<input type="radio" id = "mc" name="question3" value="Yogurt"> Yogurt<br>
+
+
+
+			<p class="questions">What trophy is played for at the US Superbowl?</p>
+			<input type="radio" id = "mc" name="question4" value="The Lombardi Trophy"> The Lombardi Trophy<br>
+			<input type="radio" id = "mc" name="question4" value="Heisman Trophy"> Heisman Trophy <br>
+			<input type="radio" id = "mc" name="question4" value="The Stanley Cup"> The Stanley Cup<br>
+
+
+
+			<p class="questions">Finish the statement- "Old habits, ...."</p>
+			<input type="radio" id = "mc" name="question5" value="are hard."> are hard.<br>
+			<input type="radio" id = "mc" name="question5" value="die hard."> die hard.<br>
+			<input type="radio" id = "mc" name="question5" value="become easy."> become easy.<br>
+
+
+			<!-- button will initiate check of answers and display of correct... add image? -->
+			<input id = "button" type = "button" value = "Finish" onclick="check();">
+
+		</form>
+		
+		<div id="endPage">
+			<div id = "submittedButton">
+			<p id = "right"></p>
+			<p id = "wrong"></p>
+			<img id = "gif">
+			<input type="button" name="reset?" id="reset?">
+			</div>
+		</div>
+ 	</div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</html>

@@ -1,0 +1,42 @@
+
+
+#quizTimer {
+	text-align: center;
+	size: 60px;
+	background-color: grey;
+	border-color: black;
+	border-style: solid;
+	border-width:2px;
+	border-radius: 2px;
+}
+#header {
+	border-color: black;
+	border-style: solid;
+	border-width:2px;
+	border-radius: 2px;
+	text-align: center;
+	background-color: grey;
+}
+#trivia {
+	border-color: black;
+	border-style: solid;
+	border-width:2px;
+	border-radius: 2px;
+	text-align: center;
+	background-color: grey;
+}
+#endPage {
+	border-color: black;
+	border-style: solid;
+	border-width:2px;
+	border-radius: 2px;
+	text-align: center;
+	background-color: grey;
+}
+#button {
+	border-color: black;
+	border-style: solid;
+	border-width:2px;
+	border-radius: 2px;
+	background-color: green;
+}
